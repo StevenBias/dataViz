@@ -19,6 +19,7 @@ h1
    background-image: url("../imgs/tour_eiffel.png");
    background-size: contain;
    background-position: center;
+   background-repeat: no-repeat;
 }
 
 #PartieI
