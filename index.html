@@ -2,16 +2,72 @@
 <html>
    <head>
       <meta charset="utf-8">
-      <title>Fullpage Scroll</title>
-      <link rel="stylesheet" href="style.css">
+      <title>Paris, une ville pour les riches ?</title>
+      <meta name="author" content="Marie Gouasmi, Martin
+      Pinna and Steven Bias" />
+      <meta name="description" content="Data vizualisation
+      of the evolution of property prices in Paris" />      
+
+      <link rel="stylesheet" type="text/css"
+                             href="css/fullpage.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+      <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+      <script src="js/utils.js"></script>
+      <script type="text/javascript" src="js/scrolloverflow.js"></script>
+      <script type="text/javascript" src="js/fullpage.js"></script>
+
+      <script type="text/javascript">
+         $(document).ready(function() {
+            $('#fullpage').fullpage({
+               navigation: true,
+               navigationPosition: 'right',
+               navigationTooltips: ['1 - Introduction',
+                  '2 - Part I',
+                  '3 - Part II',
+                  '4 - Part III',
+                  '5 - Conclusion',
+               ]
+            });
+         });
+      </script>      
+
    </head>
    <body>
+
       <div id="fullpage">
-         <section><h1>Section1</h1></section>
-         <section><h1>Section2</h1></section>
-         <section><h1>Section3</h1></section>
-         <section><h1>Section4</h1></section>
-         <section><h1>Section5</h1></section>
+         <div class="section" id="Introduction">
+            <!-- <img width="" src="Path to img"/ style="">
+            -->
+            <h1>Introdution</h1>
+            <p id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat elementum consequat. Mauris cursus lobortis scelerisque. Nulla in volutpat mauris, sed lobortis risus. Integer dui lacus, vulputate et fringilla vulputate, scelerisque eget sem. Quisque non commodo sapien, eget laoreet dui. Donec vitae sem et diam tempor mollis. Pellentesque at commodo nulla, consectetur porttitor sem. Nulla vehicula, ligula vel pharetra molestie, purus mauris suscipit lacus, id varius enim ante at augue. Aenean sed sagittis leo. Fusce ac viverra erat, ac cursus dui. In ut nulla tempor orci malesuada sodales. Donec pulvinar facilisis ante. Ut et odio porttitor, auctor nulla id, eleifend ex.</p>
+         </div>
+         <div class="section" id="PartieI">
+            <!-- <img width="" src="Path to img"/ style="">
+            -->
+            <h1>Part I</h1>
+            <p id="partI">Lipsum</p>
+         </div>
+         <div class="section" id="PartieII">
+            <!-- <img width="" src="Path to img"/ style="">
+            -->
+            <h1>Part II</h1>
+            <p id="partII">Lipsum</p>
+         </div>
+         <div class="section" id="PartieIII">
+            <!-- <img width="" src="Path to img"/ style="">
+            -->
+            <h1>Part III</h1>
+            <p id="partIII">Lipsum</p>
+         </div>
+         <div class="section" id="Conclusion">
+            <!-- <img width="" src="Path to img"/ style="">
+            -->
+            <h1>Conclusion</h1>
+            <p id="">ccl</p>
+         </div>
       </div>
+
    </body>
 </html>

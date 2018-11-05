@@ -1,0 +1,40 @@
+h1
+{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   text-transform: uppercase;
+   font-family: verdana;
+   font-size: 10em;
+   line-height: 50vh;
+}
+.section
+{
+   height: 100vh;
+   overflow: hidden;
+}
+#Introduction
+{
+   background: #f00;
+}
+
+#PartieI
+{
+   background: #ff0;
+}
+
+#PartieII
+{
+   background: #0ff;
+}
+
+#PartieIII
+{
+   background: #f0f;
+}
+
+#Conclusion
+{
+   background: #0f0;
+}
+
