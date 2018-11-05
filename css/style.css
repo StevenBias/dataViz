@@ -12,30 +12,45 @@ h1
 {
    height: 100vh;
    overflow: hidden;
+   background-size: cover;
 }
 #Introduction
 {
-   background: #f00;
+   background-image: url("../imgs/tour_eiffel.png");
+   background-size: contain;
+   background-position: center;
 }
 
 #PartieI
 {
-   background: #ff0;
+   background-image: url("../imgs/France.png");
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
 #PartieII
 {
-   background: #0ff;
+   background-image: url("../imgs/Europe.png");
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
 #PartieIII
 {
-   background: #f0f;
+   background-image: url("../imgs/World.png");
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
 #Conclusion
 {
-   background: #0f0;
+   background-image: url("../imgs/Billets.png");
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
 #menu li {
