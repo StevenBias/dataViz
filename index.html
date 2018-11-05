@@ -19,6 +19,7 @@
 
       <script type="text/javascript">
          $(document).ready(function() {
+            //initialising fullpage.js in the jQuery way
             $('#fullpage').fullpage({
                navigation: true,
                navigationPosition: 'right',
@@ -29,11 +30,41 @@
                   '5 - Conclusion',
                ]
             });
+
+            // calling fullpage.js methods using jQuery
+            $('#moveSectionUp').click(function(e){
+                e.preventDefault();
+                $.fn.fullpage.moveSectionUp();
+            });
+
+            $('#moveSectionDown').click(function(e){
+                e.preventDefault();
+                $.fn.fullpage.moveSectionDown();
+            });
+
          });
       </script>      
 
    </head>
    <body>
+
+      <ul id="menu">
+         <li data-menuanchor="Introduction"
+             class="active"><a
+             href="#Introduction">Introduction</a></li>
+         <li data-menuanchor="PartieI"><a
+             href="#PartieI">PartieI</a></li>
+         <li data-menuanchor="PartieII"><a
+             href="#PartieII">PartieII</a></li>
+         <li data-menuanchor="PartieIII"><a
+             href="#PartieIII">PartieIII</a></li>
+         <li data-menuanchor="Conclusion"><a
+             href="#Conclusion">Conclusion</a></li>
+      </ul>
+      <div id="actions">
+         <a id="moveSectionUp" href="#">moveSectionUp</a>
+         <a id="moveSectionDown" href="#">moveSectionDown</a>
+      </div>
 
       <div id="fullpage">
          <div class="section" id="Introduction">
