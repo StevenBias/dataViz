@@ -25,7 +25,6 @@ h1
 
 #PartieI
 {
-   background-image: url("../imgs/France.png");
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -33,7 +32,6 @@ h1
 
 #PartieII
 {
-   background-image: url("../imgs/Europe.png");
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -48,7 +46,6 @@ h1
 
 #PartieIII
 {
-   background-image: url("../imgs/World.png");
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -56,7 +53,6 @@ h1
 
 #Conclusion
 {
-   background-image: url("../imgs/Billets.png");
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -125,7 +121,7 @@ h1
 
 .tableauPlaceholder{
    top:0;
-   margin-left: 13%;
+   margin-left: 3%;
    margin-right: 25%;
 }
 

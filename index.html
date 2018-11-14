@@ -23,11 +23,15 @@
             //initialising fullpage.js in the jQuery way
             $('#fullpage').fullpage({
                anchors: ['page1', 'page2', 'page3', 'page4',
-                  'page5', 'page6'],
+                  'page5', 'page6', 'page7', 'page8',
+                  'page9'],
                navigation: true,
                navigationPosition: 'right',
                navigationTooltips: ['Introduction',
                   'Part I',
+                  'Part II',
+                  'Part II',
+                  'Part II',
                   'Part II',
                   'Part II',
                   'Part III',
@@ -48,14 +52,13 @@
 
    </head>
    <body>
-<!--
       <ul id="menu">
          <li data-menuanchor="page1" class="active"><a href="#page1">Introduction</a></li>
          <li data-menuanchor="page2"><a href="#page2">Le basketball dans le monde</a></li>
          <li data-menuanchor="page3"><a href="#page3">Portrait type d’un joueur de la NBA</a></li>
-         <li data-menuanchor="page5"><a href="#page5">La NBA vs la WNBA</a></li>
-         <li data-menuanchor="page6"><a href="#page6">Conclusion</a></li>
-      </ul>-->
+         <li data-menuanchor="page7"><a href="#page7">La NBA vs la WNBA</a></li>
+         <li data-menuanchor="page9"><a href="#page9">Conclusion</a></li>
+      </ul>
       <div id="actions">
          <a id="moveSectionUp" href="#">moveSectionUp</a>
          <a id="moveSectionDown" href="#">moveSectionDown</a>
@@ -101,14 +104,62 @@
                               class='tableauViz'
                               width='1000' height='400'
                               style='display:none;'><param
-                        name='host_url'
-                        value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F'
-                  /> <param name='embed_code_version'
-                  value='3' /> <param name='site_root'
-            value='&#47;t&#47;datavizstevenbias' /><param
-            name='name' value='Salary&#47;Feuille2' /><param
-      name='tabs' value='no' /><param name='toolbar'
-      value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+                              name='host_url'
+                              value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F'
+                              /> <param name='embed_code_version'
+                              value='3' /> <param name='site_root'
+                              value='&#47;t&#47;datavizstevenbias' /><param
+                              name='name' value='Salary&#47;Feuille2' /><param
+                              name='tabs' value='no' /><param name='toolbar'
+                              value='no' /><param
+                              name='showAppBanner'
+                              value='false' /><param
+                              name='filter'
+                              value='iframeSizedToWindow=false' /></object></div>
+         </div>
+         <div class="section" id="page5">
+            <h1>Salary distribtion</h1>
+            <script type='text/javascript'
+               src='https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js'></script><div
+            class='tableauPlaceholder' style='width: 1366px;
+            height: 562px;'><object class='tableauViz'
+         width='1366' height='562'
+         style='display:none;'><param name='host_url'
+   value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F' />
+         <param name='embed_code_version' value='3' />
+         <param name='site_root'
+   value='&#47;t&#47;datavizstevenbias' /><param name='name'
+   value='Salary&#47;Feuille5' /><param name='tabs'
+   value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+         </div>
+         <div class="section" id="page6">
+            <h1>NBA vs FIFA Salary</h1>
+               <script type='text/javascript'
+                  src='https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js'></script><div
+               class='tableauPlaceholder' style='width:
+               1366px; height: 562px;'><object
+            class='tableauViz' width='1366' height='562'
+            style='display:none;'><param name='host_url'
+      value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F'
+      /> <param name='embed_code_version' value='3' />
+<param name='site_root' value='&#47;t&#47;datavizstevenbias'
+/><param name='name' value='Salary&#47;Feuille8' /><param
+name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+         </div>
+         <div class="section" id="page7">
+            <h1>NBA vs FIBA Salary</h1>
+            <script type='text/javascript'
+               src='https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js'></script><div
+            class='tableauPlaceholder' style='width: 1366px;
+            height: 562px;'><object class='tableauViz'
+         width='1366' height='562'
+         style='display:none;'><param name='host_url'
+   value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F' />
+         <param name='embed_code_version' value='3' />
+         <param name='site_root'
+   value='&#47;t&#47;datavizstevenbias' /><param name='name'
+   value='Salary&#47;Feuille9' /><param name='tabs'
+   value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
          </div>
          <div class="section" id="PartieIII">
             <!-- <img width="" src="Path to img"/ style="">
