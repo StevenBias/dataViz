@@ -10,7 +10,7 @@
  */
 html.fp-enabled,
 .fp-enabled body {
-    margin: 0;
+    margin: 25px 50px 75px 100px;
     padding: 0;
     overflow:hidden;
 
