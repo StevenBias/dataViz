@@ -6,7 +6,7 @@ h1
    text-transform: uppercase;
    font-family: verdana;
    font-size: 2em;
-   line-height: 50vh;
+   line-height: 20vh;
 }
 .section
 {
@@ -22,11 +22,9 @@ h1
    background-repeat: no-repeat;
    text-align: center;
 }
-#Introduction
 
 #PartieI
 {
-   background-image: url("../imgs/France.png");
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -34,7 +32,13 @@ h1
 
 #PartieII
 {
-   background-image: url("../imgs/Europe.png");
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#page4
+{
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -42,7 +46,6 @@ h1
 
 #PartieIII
 {
-   background-image: url("../imgs/World.png");
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -50,21 +53,11 @@ h1
 
 #Conclusion
 {
-   background-image: url("../imgs/Billets.png");
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
 }
 
-#menu li {
-   display:inline-block;
-   margin: 10px;
-   color: #000;
-   background:#fff;
-   background: rgba(255,255,255, 0.5);
-   -webkit-border-radius: 10px;
-   border-radius: 10px;
-}
 #menu li {
    display:inline-block;
    margin: 10px;
@@ -125,3 +118,10 @@ h1
    color: #fff;
    background: #81A140;
 }
+
+.tableauPlaceholder{
+   top:0;
+   margin-left: 3%;
+   margin-right: 25%;
+}
+
