@@ -86,3 +86,9 @@ h1
    margin-left:auto;
    margin-right:auto;
 }
+
+/*change color of the tooltip*/
+#fp-nav ul li .fp-tooltip {
+    color: orange;
+}
+
