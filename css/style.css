@@ -16,7 +16,7 @@ h1
 }
 #Introduction
 {
-   background-image: url("../imgs/NBA game.jpg");
+   background-image: url("../imgs/NBAGame.jpg");
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -55,6 +55,7 @@ h1
 
 #Conclusion
 {
+   background-image: url("../imgs/BallonBasket.jpg");
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
