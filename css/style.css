@@ -8,6 +8,10 @@ h1
    font-size: 1.5em;
    line-height: 10vh;/
 }
+p
+{
+    margin: 25px 50px 75px 100px;
+}
 .section
 {
    height: 100vh;
@@ -17,7 +21,7 @@ h1
 #Introduction
 {
    background-image: url("../imgs/NBAGame.jpg");
-   background-size: contain;
+   background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    text-align: center;
@@ -56,9 +60,11 @@ h1
 #Conclusion
 {
    background-image: url("../imgs/BallonBasket.jpg");
-   background-size: contain;
+   background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
+   color:white;
+   font-size: 1.5em;
 }
 
 #actions{
