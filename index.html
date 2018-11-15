@@ -59,13 +59,13 @@
    </head>
    <body>
       <!--
-      <ul id="menu">
+         <ul id="menu">
          <li data-menuanchor="page1" class="active"><a href="#page1">Introduction</a></li>
          <li data-menuanchor="page2"><a href="#page2">Le basketball dans le monde</a></li>
          <li data-menuanchor="page3"><a href="#page3">Portrait type d’un joueur de la NBA</a></li>
          <li data-menuanchor="page8"><a href="#page8">La NBA vs la WNBA</a></li>
          <li data-menuanchor="page9"><a href="#page9">Conclusion</a></li>
-      </ul>
+         </ul>
       -->
       <div id="actions">
          <a id="moveSectionUp" href="#">moveSectionUp</a>
@@ -97,6 +97,7 @@
             <h1>Le basketball dans le monde</h1>
             <p id="partI">Les Etats-Unis dominent le palmarès des nations à l'international. 
             Les Américains ont été sacrés champions du monde 5 fois.   
+            </p>
             <div class="tableau">
                <div class='tableauPlaceholder' id='viz1542191728243'
                  style='position: relative'><noscript><a href='#'><img
@@ -113,124 +114,134 @@
                  name='display_static_image' value='yes' /><param
                  name='display_spinner' value='yes' /><param
                  name='display_overlay' value='yes' /><param
-                 name='display_count' value='yes' /></object></div>
+                 name='display_count' value='yes' /></object>
+               </div>
                <script type='text/javascript'>                    var
                   divElement = document.getElementById('viz1542191728243');
 var vizElement =
    divElement.getElementsByTagName('object')[0];
 vizElement.style.width='90%';vizElement.style.height=(divElement.offsetWidth*0.40)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
             </div>
-            </p>
          </div>
          <div class="section" id="joueurType">
             <!-- <img width="" src="Path to img"/ style="">
             -->
             <h1>Portrait type d’un joueur de la NBA</h1>
-            <p id="joueurType">
+            <p>
             Un grand cliché : les joueurs de basketball doivent être grands ! 
             Taille moyenne des joueurs de la NBA. Perspective historique. 
             Salaire moyen (comparaison avec FIBA)
             Statistiques ethniques : white, african-american, latino, etc 
-            <div class="imgs">
-               <img src="imgs/moyHeight.png">
-            </div>
             </p>
+            <div class="imgs">
+               <img src="imgs/moyHeight.png" alt="average Height">
+            </div>
          </div>
          <div class="section" id="moyWeight">
             <h1>Portrait type d’un joueur de la NBA</h1>
-             <p id="joueurType">
-            Poids moyen des joueurs de la NBA. Perspective historique. 
+            <p>
+            Poids moyen des joueurs de la NBA. Perspective
+            historique.
+            </p> 
             <div class="imgs">
-               <img src="imgs/moyWeight.png">
+               <img src="imgs/moyWeight.png" alt="average weight">
             </div>
          </div>
          <div class="section" id="moyIMC">
             <h1>Portrait type d’un joueur de la NBA</h1>
             <div class="imgs">
-               <img src="imgs/moyIMC.png">
+               <img src="imgs/moyIMC.png" alt="average IMC">
             </div>
          </div>
          <div class="section" id="topSalary">
             <h1>Top 5 NBA salary</h1>
-            <p id="joueurType">
+            <p>
             Podium des 5 joueurs les mieux payés. 
+            </p>
             <!--Add Top 5 NBA Salary Tableau -->
             <div class="imgs">
-               <img src="imgs/Top 5 2018-19 Salary.png">
+               <img src="imgs/Top 5 2018-19 Salary.png" alt="top 5 salary">
             </div>
          </div>
          <div class="section" id="distSalary">
             <h1>Salary distribution</h1>
-            <p id="joueurType">
+            <p>
             En regardant de plus près la distribution des salaires des joueurs de la NBA, 
             on se rend compte de la grande disparité entre joueurs. Si certains salaires 
             sont très élevés, ils le sont pour peu de joueurs car la majorité a des 
             salaires bien inférieurs à une minorité. 
+            </p>
             <!--Add Salary distrib Tableau -->
             <div class="imgs">
-               <img src="imgs/Salary distribution.png">
+               <img src="imgs/Salary distribution.png" alt="salary distribution">
             </div>
          </div>
          <div class="section" id="FIFASalary">
             <h1>NBA vs FIFA Salary</h1>
-             <p id="joueurType">
+            <p>
             Comparaison entre les 5 joueurs les mieux payés de la NBA et les 5 joueurs 
             FIFA les mieux payés.  
+            </p>
             <!--Add NBA vs FIFA Salary Tableau -->
             <div class="imgs">
-               <img src="imgs/NBA vs FIFA Salary.png">
+               <img src="imgs/NBA vs FIFA Salary.png" alt="NBA vs FIFA top salary">
             </div>
          </div>
          <div class="section" id="FIBASalary">
             <h1>NBA vs FIBA Salary</h1>
-            <p id="joueurType">
+            <p>
             Comparaison entre les 5 joueurs les mieux payés de la NBA et les 5 joueurs 
             FIBA les mieux payés.  
+            </p>
             <!--Add NBA vs FIBA Salary Tableau -->
             <div class="imgs">
-               <img src="imgs/NBA vs FIBA Salary.png">
+               <img src="imgs/NBA vs FIBA Salary.png" alt="NBA vs FIBA top salary">
             </div>
          </div>
          <div class="section" id="playersDiversity">
             <h1>Players diversity</h1>
-             <p id="joueurType">
+            <p>
             "Tous les joueurs de basketball aux Etats-Unis sont African-American ?"
             Nous nous sommes penchés sur cette question, en regardant les statistiques 
             et la répartition White/African-American dans les joueurs de la NBA.
+            </p>
             <!--Add players distrib Tableau -->
             <div class="imgs">
-               <img src="imgs/Players diversity.png">
+               <img src="imgs/Players diversity.png" alt="players diversity">
             </div>
          </div>
          <div class="section" id="diversityiPercentage">
             <h1>Ethnicity percentage</h1>
-            <p id="joueurType">
+            <p>
             "Tous les joueurs de basketball aux Etats-Unis sont African-American ?"
             Nous nous sommes penchés sur cette question, en regardant les statistiques 
             et la répartition White/African-American dans les joueurs de la NBA.
+            </p>
             <!--Add Ethinicity percentage Tableau -->
             <div class="imgs">
-               <img src="imgs/Ethnicity percentage in 2014-15 season.png">
+               <img src="imgs/Ethnicity percentage in 2014-15 season.png" alt="ethnicity percentage">
             </div>
          </div>
          <div class="section" id="hcDiversity">
             <h1>Head Coaches diversity</h1>
-            <p id="joueurType">
+            <p>
             "Tous les joueurs de basketball aux Etats-Unis sont African-American ?"
             Si la majorité des joueurs est African-American, les coachs eux sont 
             majoritairement White.
+            </p>
             <!--Add Head Coaches Tableau -->
             <div class="imgs">
-               <img src="imgs/Head Coaches diversity.png">
+               <img src="imgs/Head Coaches diversity.png" alt="Head coaches diversity">
             </div>
          </div>
          <div class="section" id="ownersDiversity">
             <h1>Owners diversity</h1>
-            <p id="joueurType">
+            <p>
             Et il en va de même pour les propriétaires de clubs. 
+            </p>
             <!--Add Owners diversity Tableau -->
             <div class="imgs">
-               <img src="imgs/Owners diversity.png">
+               <img src="imgs/Owners diversity.png" alt="owners diversity">
             </div>
          </div>
          <div class="section" id="WNBA">
@@ -242,11 +253,12 @@ vizElement.style.width='90%';vizElement.style.height=(divElement.offsetWidth*0.4
             le basketbal féminin a tardé à se développer et encore aujourd'hui, 
             le sport féminin est moins médiatisé est présente de nombreuses différences
             (salaires des joueuses, sponsoring, etc).  
+            </p>
             <div class="tableau">
                <div class='tableauPlaceholder'
-                  id='viz1542127688818' style='position:
-                  relative'><noscript><a href='#'><img alt='
-                  '
+                 id='viz1542127688818' style='position:
+                 relative'><noscript><a href='#'><img alt='
+                 '
                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FZ&#47;FZCYNM6KH&#47;1_rss.png'
                  style='border: none'
                  /></a></noscript><object class='tableauViz'
@@ -274,13 +286,12 @@ var vizElement =
    divElement.getElementsByTagName('object')[0];
 vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.50)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
             </div>
-            </p>
          </div>
          <div class="section" id="Conclusion">
             <!-- <img width="" src="Path to img"/ style="">
             -->
             <h1>Conclusion</h1>
-            <p id="">ccl</p>
+            <p>ccl</p>
          </div>
       </div>
 
