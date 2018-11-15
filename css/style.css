@@ -90,6 +90,11 @@ h1
    margin-right:auto;
 }
 
+img.imgsTab{
+   height:95%;
+   width:95%;
+}
+
 /*change color of the tooltip*/
 #fp-nav ul li .fp-tooltip {
     color: DarkOrange;
