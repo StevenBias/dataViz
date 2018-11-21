@@ -29,22 +29,105 @@ p
    font-size: 1.5em;
 }
 
-#PartieI
+#USAvsWorld
 {
+/*   background-color: AliceBlue;*/
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
 }
 
-#PartieII
+#joueurType
 {
+/*   background-color: beige;*/
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
 }
 
-#page4
+#moyWeight
 {
+/*   background-color: BlanchedAlmond;*/
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#moyIMC
+{
+/*   background-color: Bisque;*/
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#topSalary
+{
+/*   background-color: Azure;*/
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#distSalary
+{
+/*   background-color: FloralWhite;*/
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#FIFASalary
+{
+/*   background-color: GhostWhite;*/
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#FIFASalary
+{
+/*   background-color: GhostWhite;*/
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#FIBASalary
+{
+/*   background-color: HoneyDew;*/
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#playersDiversity
+{
+/*   background-color: Ivory;*/
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#diversityPercentage
+{
+/*   background-color: Lavender;*/
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#hcDiversity
+{
+/*   background-color: LavenderBlush;*/
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#ownersDiversity
+{
+/*   background-color: LemonChiffon;*/
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -52,6 +135,7 @@ p
 
 #WNBA
 {
+/*   background-color: LemonChiffon;*/
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
