@@ -8,16 +8,17 @@
       <meta name="description" content="Data vizualisation
       to study the difference between the NBA and the others
       basketball championships" />      
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
 
       <link rel="stylesheet" type="text/css" href="css/fullpage.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
 
-      <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+      <!-- This following line is only necessary in the case of using bootstrapCDN -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+      <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
       <script src="js/utils.js"></script>
       <script type="text/javascript" src="js/scrolloverflow.js"></script>
       <script type="text/javascript" src="js/fullpage.js"></script>
@@ -158,20 +159,37 @@ vizElement.style.width='98%';vizElement.style.height=(divElement.offsetWidth*0.3
                   <img src="imgs/moyWeight.png" alt="average weight">
                </div>
             </div>
-            <div class="section" id="moyIMC">
-               <h1>Portrait type d’un joueur de la NBA</h1>
-               <div class="imgs">
-                  <img src="imgs/moyIMC.png" alt="average IMC">
+            <div class="section" id="moyCareer">
+               <div class="row">
+                  <div class="col">
+                     <img class="img-fluid" src="imgs/playersCareer.png"
+                                            style="height:150%;weight:150%" alt="top 3 salary">
+                  </div>
+                  <div class="col">
+                     <br/>
+                     <h2>NBA player's career</h2>
+                     <br/>
+                     <p>
+                     La durée de carrière dans la NBA par rapport à la
+                     durée de carrière des athlètes dans d’autres ligues
+                     américaines : football américain, hockey sur glace
+                     et baseball.</p>
+                  </div>
                </div>
             </div>
             <div class="section" id="topSalary">
-               <h1>Top 5 NBA salary</h1>
-               <p>
-               Podium des 5 joueurs les mieux payés. 
-               </p>
-               <!--Add Top 5 NBA Salary Tableau -->
-               <div class="imgs">
-                  <img class="img-fluid" src="imgs/Top5Salary.png" alt="top 5 salary">
+               <div class="row">
+                  <div class="col">
+                        <img class="img-fluid" src="imgs/topNBASalary.png"
+                        style="height:130%;weight:130%" alt="top 3 salary">
+                  </div>
+                  <div class="col">
+                     <h2>Millionaires qui courent après un ballon ?</h2>
+                     <br />
+                     <p>
+                     Les 3 joueurs les mieux payés de la NBA en 2018-2019
+                     </p>
+                  </div>
                </div>
             </div>
             <div class="section" id="distSalary">
@@ -210,24 +228,23 @@ vizElement.style.width='98%';vizElement.style.height=(divElement.offsetWidth*0.3
                </div>
             </div>
             <div class="section" id="playersDiversity">
-               <h1>Players diversity</h1><br /><br />
                <div class="row">
-                  <div class="col-3">
+                  <!--Add players diversity-->
+                  <div class="col">
+                     <img class="img-fluid" src="imgs/playersEthnicy.png" style="height:125%;weight:125%" alt="players diversity">
+                  </div>
+                  <div class="col">
+                     <h2>Is the skin clor relevant ?</h2><br/>
                      <p>
                      "Tous les joueurs de basketball aux Etats-Unis sont African-American ?"
                      Nous nous sommes penchés sur cette question, en regardant les statistiques 
                      et la répartition White/African-American dans les joueurs de la NBA.
                      </p>
                   </div>
-                     <!--Add players diversity-->
-                     <div class="col">
-                        <img class="img-fluid" src="imgs/PlayersDiversity.png"
-                        style="height:80%;weight:50%" alt="players diversity">
-                     </div>
                </div>
             </div>
             <div class="section" id="diversityPercentage">
-               <h1>Ethnicity percentage</h1><br /><br />
+               <h2>Is the skin clor relevant ?</h2><br/>
                <div class="row">
                   <div class="col">
                      <p>
@@ -245,15 +262,19 @@ vizElement.style.width='98%';vizElement.style.height=(divElement.offsetWidth*0.3
                </div>
             </div>
             <div class="section" id="hcDiversity">
-               <h1>Head Coaches diversity</h1>
-               <p>
-               "Tous les joueurs de basketball aux Etats-Unis sont African-American ?"
-               Si la majorité des joueurs est African-American, les coachs eux sont 
-               majoritairement White.
-               </p>
-               <!--Add Head Coaches Tableau -->
-               <div class="imgs">
-                  <img class="imgsTab" src="imgs/HeadCoachesDiversity.png" alt="Head coaches diversity">
+               <div class="row">
+                  <div class="col">
+                     <img class="img-fluid" src="imgs/coachsEthnicy.png"
+                                            style="height:125%;weight:125%" alt="coach diversity">
+                  </div>
+                  <div class="col">
+                     <h2>Is the skin clor relevant ?</h2><br/>
+                     <p>
+                     "Tous les joueurs de basketball aux Etats-Unis sont African-American ?"
+                     Si la majorité des joueurs est African-American, les coachs eux sont 
+                     majoritairement White.
+                     </p>
+                  </div>
                </div>
             </div>
             <div class="section" id="ownersDiversity">
