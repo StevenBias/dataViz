@@ -16,10 +16,10 @@ p
 .section
 {
    height: 100%;
-   margin-right:15%;
    overflow: hidden;
    background-size: cover;
 }
+
 #Introduction
 {
    background-image: url("../imgs/NBAGame.jpg");
@@ -185,6 +185,14 @@ p
 img.imgsTab{
    height:95%;
    width:95%;
+}
+
+.slide{
+   background-color:black;
+}
+
+.fp-slidesNav{
+    left: 45% !important;
 }
 
 /*change color of the tooltip*/
