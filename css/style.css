@@ -18,7 +18,20 @@ p
 {
    text-align: justify;
    margin: 25px 50px 75px 100px;
+   font-size: 1.2em;
 }
+p.question
+{
+   text-align: center;
+   font-size: 2em;
+}
+
+p.reponse
+{
+   text-align: center;
+   font-size: 2em;
+}
+
 .section
 {
    height: 100%;
@@ -52,7 +65,6 @@ p
    background-position: center;
    background-repeat: no-repeat;
    color : black;
-   font-size: 1.3em;
 }
 
 #joueurType
@@ -165,7 +177,7 @@ p
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   color:white;
+   color:black;
    font-size: 1.5em;
 }
 
