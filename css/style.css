@@ -182,12 +182,6 @@ p
    margin-right:15%;
 }
 
-.img-responsive {
-  display: block;
-  width: auto;
-  height: auto;
-}
-
 img.imgsTab{
    height:95%;
    width:95%;
