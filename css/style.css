@@ -6,8 +6,14 @@ h1
    text-transform: uppercase;
    font-family: verdana;
    font-size: 1.5em;
-   line-height: 10vh;/
+   line-height: 10vh;
 }
+
+h3
+{
+   text-align: center;
+}
+
 p
 {
    text-align: justify;
