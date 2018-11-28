@@ -24,12 +24,14 @@ p.question
 {
    text-align: center;
    font-size: 2em;
+   color:#ff6600;
 }
 
 p.reponse
 {
    text-align: center;
-   font-size: 2em;
+   font-size: 4em;
+   color:#ff6600;
 }
 
 .section
@@ -233,5 +235,5 @@ p.reponse
 
 /*change color of the tooltip*/
 #fp-nav ul li .fp-tooltip {
-    color: DarkOrange;
+    color:#ff6600;
 }
