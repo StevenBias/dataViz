@@ -1,4 +1,4 @@
-h1, h2
+h1
 {
    margin: 0;
    padding: 0;
@@ -180,6 +180,12 @@ p
    display: block;
    margin-left:15%;
    margin-right:15%;
+}
+
+.img-responsive {
+  display: block;
+  width: auto;
+  height: auto;
 }
 
 img.imgsTab{
