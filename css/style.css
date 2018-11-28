@@ -182,9 +182,9 @@ p
    margin-right:15%;
 }
 
-img.imgsTab{
-   height:95%;
-   width:95%;
+.img-logo{
+   height:auto;
+   max-width:60%;
 }
 
 .fp-slidesNav{
