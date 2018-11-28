@@ -45,6 +45,16 @@ p
    background-repeat: no-repeat;
 }
 
+#NBAInfos
+{
+   background-image: url("../imgs/nbaFloor.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color : black;
+   font-size: 1.3em;
+}
+
 #joueurType
 {
 /*   background-color: beige;*/
