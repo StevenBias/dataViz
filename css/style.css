@@ -41,7 +41,7 @@ p.reponse
    background-size: cover;
 }
 
-#Introduction
+#home
 {
    background-image: url("../imgs/NBAGame nuls.jpg");
    background-size: 85%;
@@ -52,12 +52,20 @@ p.reponse
    font-size: 1.8em;
 }
 
-#USAvsWorld
+#introduction
 {
 /*   background-color: AliceBlue;*/
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
+}
+
+#NBALogo
+{
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color : black;
 }
 
 #NBAInfos
@@ -69,7 +77,7 @@ p.reponse
    color : black;
 }
 
-#joueurType
+#saison
 {
 /*   background-color: beige;*/
    background-size: contain;
@@ -77,23 +85,15 @@ p.reponse
    background-repeat: no-repeat;
 }
 
-#moyWeight
+#tailleMoy
 {
-/*   background-color: BlanchedAlmond;*/
+/*   background-color: Azure;*/
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
 }
 
-#moyIMC
-{
-/*   background-color: Bisque;*/
-   background-size: contain;
-   background-position: center;
-   background-repeat: no-repeat;
-}
-
-#topSalary
+#taille
 {
 /*   background-color: Azure;*/
    background-size: contain;
@@ -109,17 +109,17 @@ p.reponse
    background-repeat: no-repeat;
 }
 
-#FIFASalary
+#LBJvsMJ
 {
-/*   background-color: GhostWhite;*/
+/*   background-color: BlanchedAlmond;*/
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
 }
 
-#FIFASalary
+#career
 {
-/*   background-color: GhostWhite;*/
+/*   background-color: Bisque;*/
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -141,14 +141,6 @@ p.reponse
    background-repeat: no-repeat;
 }
 
-#diversityPercentage
-{
-/*   background-color: Lavender;*/
-   background-size: contain;
-   background-position: center;
-   background-repeat: no-repeat;
-}
-
 #hcDiversity
 {
 /*   background-color: LavenderBlush;*/
@@ -157,7 +149,7 @@ p.reponse
    background-repeat: no-repeat;
 }
 
-#ownersDiversity
+#NBAvsWNBA
 {
 /*   background-color: LemonChiffon;*/
    background-size: contain;
