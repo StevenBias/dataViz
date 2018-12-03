@@ -86,6 +86,14 @@ p.reponse
    background-repeat: no-repeat;
 }
 
+#titresNBA
+{
+/*   background-color: beige;*/
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
 #tailleMoy
 {
 /*   background-color: Azure;*/
