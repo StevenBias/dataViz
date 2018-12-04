@@ -24,14 +24,14 @@ p.question
 {
    text-align: center;
    font-size: 2em;
-   color:red;
+   color:#e60000;
 }
 
 p.reponse
 {
    text-align: justify;
    font-size: 2em;
-   color:red;
+   color:#e60000;
 }
 
 .section
@@ -71,6 +71,7 @@ p.reponse
 
 #MJInfos
 {
+   background-image: url("../imgs/parquet.png");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -125,7 +126,7 @@ p.reponse
 
 #LBJvsMJ
 {
-   background-image: url("../imgs/LBJxMJ.jpg");
+   background-image: url("../imgs/LBJxMJ.png");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
