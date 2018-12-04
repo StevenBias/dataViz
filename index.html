@@ -52,53 +52,35 @@
                   'Credits',
                ]
             });
-            // calling fullpage.js methods using jQuery
-            $('#moveSectionUp').click(function(e){
-               e.preventDefault();
-               $.fn.fullpage.moveSectionUp();
-            });
-            $('#moveSectionDown').click(function(e){
-               e.preventDefault();
-               $.fn.fullpage.moveSectionDown();
-            });
          });
       </script>      
    </head>
    <body>
-      <!--
-         <ul id="menu">
-         <li data-menuanchor="page1" class="active"><a href="#page1">Introduction</a></li>
-         <li data-menuanchor="page2"><a href="#page2">Le basketball dans le monde</a></li>
-         <li data-menuanchor="page3"><a href="#page3">Portrait type d’un joueur de la NBA</a></li>
-         <li data-menuanchor="page8"><a href="#page8">La NBA vs la WNBA</a></li>
-         <li data-menuanchor="page9"><a href="#page9">Conclusion</a></li>
-         </ul>
-      -->
       <div id="fullpage">
          <div class="section" id="home">
             <!-- <img width="" src="Path to img"/ style="">
             -->
             <h1>En apprendre plus sur la NBA<br />
-            <br />en quelques minutes !</h1>
+               <br />en quelques minutes !</h1>
          </div>
          <div class="section" id="introduction">
             <!-- <img width="" src="Path to img"/ style="">
             -->
             <h1>Introduction</h1>
-                  <p id="partI"> Même s’il n’est pas aussi populaire que le football, <strong>le 
-                  basketball est un des sports collectifs les plus pratiqués dans le monde.</strong><br />
-<br />                   
-Le basketball a été <strong>inventé à la fin du XIXe siècle dans le Massachusetts</strong>, aux Etats-Unis. 
-Il devint petit à petit très populaire dans les écoles et universités, avant de se répandre 
-à l’international. Aussi, ce n’est pas un hasard si les Etats-Unis dominent le palmarès des 
-championnats internationaux. <br />
-<br />
-Grâce à cette étude vous saurez :<br />
-<br /> - Comment fonctionne la NBA <br />
-<br /> - Quels caractéristiques physiques ont les joueurs<br />
-<br /> - Des fun facts !
- 
-                  </p>
+            <p id="partI"> Même s’il n’est pas aussi populaire que le football, <strong>le 
+               basketball est un des sports collectifs les plus pratiqués dans le monde.</strong><br />
+            <br />                   
+            Le basketball a été <strong>inventé à la fin du XIXe siècle dans le Massachusetts</strong>, aux Etats-Unis. 
+            Il devint petit à petit très populaire dans les écoles et universités, avant de se répandre 
+            à l’international. Aussi, ce n’est pas un hasard si les Etats-Unis dominent le palmarès des 
+            championnats internationaux. <br />
+            <br />
+            Grâce à cette étude vous saurez :<br />
+            <br /> - Comment fonctionne la NBA <br />
+            <br /> - Quels caractéristiques physiques ont les joueurs<br />
+            <br /> - Des fun facts !
+
+            </p>
          </div>
          <div class="section" id="NBAInfos">
             <div class="slide" id="slide1" data-anchor="slide1">
@@ -189,7 +171,7 @@ Grâce à cette étude vous saurez :<br />
                   "You can't teach height"<br/>
                   <br/>Si la majorité des joueurs mesurent presque 2m aujourd'hui, 
                   il est important de se rendre compte qu'être d'une <strong>taille inférieure 
-                  n'empêche pas quelques joueurs de bien jouer.</strong> 
+                     n'empêche pas quelques joueurs de bien jouer.</strong> 
                   Aussi, si le plus grand joueur de la NBA mesurait <strong>2,31m</strong>, le plus
                   petit lui mesurait seulement... <strong>1,60m</strong>.
                   </p>
@@ -209,7 +191,7 @@ Grâce à cette étude vous saurez :<br />
             </p>
             <!--Add Salary distrib Tableau -->
             <img class="img-fluid mx-auto d-block" src="imgs/Salaries nba et fifa.jpg"
-            style="height:75%;max-width:100%;" alt="salary">
+                                                   style="height:75%;max-width:100%;" alt="salary">
          </div>
          <div class="section" id="career">
             <h1>La durée de carrière</h1>
@@ -237,7 +219,7 @@ Grâce à cette étude vous saurez :<br />
             <div class="row">
                <div class="col">
                   <img class="img-fluid mx-auto d-block" src="imgs/Ethnicity_Coachs.jpg" alt="ethnicity percentage" 
-                  style="height:auto;width:80%;" alt="players diversity">
+                                                                                         style="height:auto;width:80%;" alt="players diversity">
                </div>
                <div class="col">
                   <h1>...mais une majorité de coachs blancs !</h1><br/>
@@ -258,27 +240,27 @@ Grâce à cette étude vous saurez :<br />
             -->
             <h1>Les salaires dans la WNBA</h1>
             <p>
-           - Les salaires à 6 chiffres sont monnaie courante dans le basketball... sauf s’il s’agit d’une femme.<br /> 
-           <br />- Les basketballeuses travaillent plus pour être payées moins de la moitié que leurs homologues masculins.<br />
-           <br />- La joueuse de la WNBA la mieux payée a un salaire <strong>35 fois moins élevé</strong> que son homologue de la NBA. 
- 
+            - Les salaires à 6 chiffres sont monnaie courante dans le basketball... sauf s’il s’agit d’une femme.<br /> 
+            <br />- Les basketballeuses travaillent plus pour être payées moins de la moitié que leurs homologues masculins.<br />
+            <br />- La joueuse de la WNBA la mieux payée a un salaire <strong>35 fois moins élevé</strong> que son homologue de la NBA. 
+
             </p>
             <img class="img-fluid mx-auto d-block" src="imgs/Salaires nba vs wnba.jpg" alt="NBA vs WNBA_1" 
-            style="height:55%;width:55%;">
+                                                                                       style="height:55%;width:55%;">
          </div>
-            <div class="section" id="Conclusion">
-               <!-- <img width="" src="Path to img"/ style="">
-               -->
-               <h1>Credits</h1>
-               <p>
-               Site réalisé dans le cadre d'un projet étudiant entre Télécom ParisTech et SciencesPo Paris.<br />
-               L'objectif et de présenter des visualisation de données conceernant la NBA.<br />
-               <br />
-               Marie Gouasmi, Martin Pinna et Steven Bias<br />
-               <br />
-               Lien github du projet : https://github.com/MSMDataVizGroup/dataViz
-               </p>
-            </div>
+         <div class="section" id="Conclusion">
+            <!-- <img width="" src="Path to img"/ style="">
+            -->
+            <h1>Credits</h1>
+            <p>
+            Site réalisé dans le cadre d'un projet étudiant entre Télécom ParisTech et SciencesPo Paris.<br />
+            L'objectif et de présenter des visualisation de données conceernant la NBA.<br />
+            <br />
+            Marie Gouasmi, Martin Pinna et Steven Bias<br />
+            <br />
+            Lien github du projet : https://github.com/MSMDataVizGroup/dataViz
+            </p>
+         </div>
       </div>
    </body>
 </html>
