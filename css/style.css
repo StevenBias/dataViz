@@ -24,14 +24,14 @@ p.question
 {
    text-align: center;
    font-size: 2em;
-   color:#ff6600;
+   color:red;
 }
 
 p.reponse
 {
-   text-align: center;
-   font-size: 4em;
-   color:#ff6600;
+   text-align: justify;
+   font-size: 2em;
+   color:red;
 }
 
 .section
@@ -69,9 +69,8 @@ p.reponse
    color : black;
 }
 
-#NBAInfos
+#MJInfos
 {
-   background-image: url("../imgs/nbaFloor.png");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
