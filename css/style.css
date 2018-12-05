@@ -171,7 +171,7 @@ p.reponse
    background-repeat: no-repeat;
 }
 
-#NBAvsWNBA
+#MJbiz
 {
 /*   background-color: LemonChiffon;*/
    background-size: contain;
@@ -179,9 +179,10 @@ p.reponse
    background-repeat: no-repeat;
 }
 
-#WNBA
+#MJfortune
 {
 /*   background-color: LemonChiffon;*/
+   background-image: url("../imgs/mbappe.jpg");
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -195,22 +196,6 @@ p.reponse
    background-repeat: no-repeat;
    color:white;
    font-size: 1.5em;
-}
-
-.tableauPlaceholder{
-   margin-left: auto;
-   margin-right: auto;
-}
-
-.imgs{
-   display: block;
-   margin-left:15%;
-   margin-right:15%;
-}
-
-.img-logo{
-   height:auto;
-   max-width:60%;
 }
 
 .fp-slidesNav{
