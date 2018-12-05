@@ -100,9 +100,10 @@ p.reponse
    background-repeat: no-repeat;
 }
 
-#tailleMoy
+#SalaireMJ
 {
-/*   background-color: Azure;*/
+/*   background-color: beige;*/
+   background-image: url("../imgs/Slide 10.jpg");
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
